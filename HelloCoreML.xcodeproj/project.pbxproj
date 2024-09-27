@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		047BDEF72CA2CA3500DEE030 /* Hello.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hello.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047BDEF72CA2CA3500DEE030 /* HelloCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		047BDEF92CA2CA3500DEE030 /* Hello */ = {
+		047BDEF92CA2CA3500DEE030 /* HelloCoreML */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Hello;
+			path = HelloCoreML;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		047BDEEE2CA2CA3500DEE030 = {
 			isa = PBXGroup;
 			children = (
-				047BDEF92CA2CA3500DEE030 /* Hello */,
+				047BDEF92CA2CA3500DEE030 /* HelloCoreML */,
 				047BDEF82CA2CA3500DEE030 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		047BDEF82CA2CA3500DEE030 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				047BDEF72CA2CA3500DEE030 /* Hello.app */,
+				047BDEF72CA2CA3500DEE030 /* HelloCoreML.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		047BDEF62CA2CA3500DEE030 /* Hello */ = {
+		047BDEF62CA2CA3500DEE030 /* HelloCoreML */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 047BDF052CA2CA3800DEE030 /* Build configuration list for PBXNativeTarget "Hello" */;
+			buildConfigurationList = 047BDF052CA2CA3800DEE030 /* Build configuration list for PBXNativeTarget "HelloCoreML" */;
 			buildPhases = (
 				047BDEF32CA2CA3500DEE030 /* Sources */,
 				047BDEF42CA2CA3500DEE030 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				047BDEF92CA2CA3500DEE030 /* Hello */,
+				047BDEF92CA2CA3500DEE030 /* HelloCoreML */,
 			);
-			name = Hello;
+			name = HelloCoreML;
 			packageProductDependencies = (
 			);
 			productName = Hello;
-			productReference = 047BDEF72CA2CA3500DEE030 /* Hello.app */;
+			productReference = 047BDEF72CA2CA3500DEE030 /* HelloCoreML.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 047BDEF22CA2CA3500DEE030 /* Build configuration list for PBXProject "Hello" */;
+			buildConfigurationList = 047BDEF22CA2CA3500DEE030 /* Build configuration list for PBXProject "HelloCoreML" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				047BDEF62CA2CA3500DEE030 /* Hello */,
+				047BDEF62CA2CA3500DEE030 /* HelloCoreML */,
 			);
 		};
 /* End PBXProject section */
@@ -251,10 +251,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hello/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreML/Preview Content\"";
 				DEVELOPMENT_TEAM = 89DA6A24E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to classify images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to classify images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +282,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hello/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"HelloCoreML/Preview Content\"";
 				DEVELOPMENT_TEAM = 89DA6A24E8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to classify images.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to classify images.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		047BDEF22CA2CA3500DEE030 /* Build configuration list for PBXProject "Hello" */ = {
+		047BDEF22CA2CA3500DEE030 /* Build configuration list for PBXProject "HelloCoreML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047BDF032CA2CA3800DEE030 /* Debug */,
@@ -314,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		047BDF052CA2CA3800DEE030 /* Build configuration list for PBXNativeTarget "Hello" */ = {
+		047BDF052CA2CA3800DEE030 /* Build configuration list for PBXNativeTarget "HelloCoreML" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				047BDF062CA2CA3800DEE030 /* Debug */,
